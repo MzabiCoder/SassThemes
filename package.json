@@ -1,0 +1,12 @@
+{
+  "name": "mer_thems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o public/css --recursive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
