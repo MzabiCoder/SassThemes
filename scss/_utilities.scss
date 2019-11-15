@@ -28,3 +28,24 @@
         border: #ccc 1px solid;
     }
 }
+
+.container {
+    max-width: $max-width;
+    overflow: hidden;
+    padding: 0 3rem;
+    padding-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+.text-primary {
+    color: $primary-color
+}
+
+.lead {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.large {
+    font-size: 3rem;
+}
