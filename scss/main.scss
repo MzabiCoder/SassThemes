@@ -1,5 +1,6 @@
 @import "config";
 @import 'utilities';
+@import 'form';
 
 * {
     box-sizing: border-box;
@@ -89,30 +90,29 @@ img {
     .buttons {
         margin: 1rem;
 
-        .btn {
-            @include set-background($primary-color);
-            padding: .4rem;
-            text-align: center;
-            border: none;
-            padding: .5rem;
-            transition: all .7s ease-in-out;
-            cursor: pointer;
-            margin-right: 1rem;
+    }
 
-            &-primary {
-                &:hover {
-                    background-color: lighten($primary-color, 50%);
-                }
+    .btn {
+        @include set-background($primary-color);
+        padding: .4rem;
+        text-align: center;
+        border: none;
+        padding: .5rem;
+        transition: all .7s ease-in-out;
+        cursor: pointer;
+        margin-right: 1rem;
+
+        &-primary {
+            &:hover {
+                background-color: lighten($primary-color, 50%);
             }
+        }
 
-            &-light {
-                &:hover {
-                    background-color: lighten($dark-color, 50%);
-                    color: black
-                }
+        &-light {
+            &:hover {
+                background-color: lighten($dark-color, 50%);
+                color: black
             }
-
-
         }
 
 
